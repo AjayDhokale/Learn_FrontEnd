@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style> 
+        body{
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(213, 213, 213);
+            height: 70vh;
+            gap: 30px;
+        }
+        .box:hover {
+            background-color: rgb(46, 46, 152);
+            color: white;
+        }
+
+        .box{
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 70px;
+            background-color: white;
+        }
+
+        img{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            border: 3px solid violet;
+            object-fit: cover;
+            
+        }
+        h3{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .icons-div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            font-size: 20px;
+            
+        }
+        /* i{
+            margin: 10px;
+        } */
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <img src="../Images/Profile1.png" alt="">
+            <h3>Luna Turner</h3>
+            <p>FOUNDER</p>
+
+            <div class="icons-div">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            
+        </div>
+        <div class="box">
+            <img src="../Images/Profile2.png" alt="">
+            <h3>Bryant Hall</h3>
+            <p>DEVELOPER</p>
+            <div class="icons-div">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../Images/Profile3.png" alt="">
+            <h3>Hope Watkins</h3>
+            <p>DESIGNER</p>
+            <div class="icons-div">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
