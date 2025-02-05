@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        button{
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            font-family: cursive;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <button onclick="colorBg(innerText)">Red</button>
+            <button onclick="colorBg(innerText)">Green</button>
+            <button onclick="colorBg(innerText)">Blue</button>
+            <button onclick="colorBg(innerText)">Yellow</button>
+            <button onclick="colorBg(innerText)">Gray</button>
+            <button onclick="colorBg(innerText)">Orange</button>
+        </div>
+    </section>
+
+    <script>
+        function colorBg(innerText) {
+            document.getElementsByTagName('body')[0].style.background = innerText
+        }
+    </script>
+
+</body>
+</html>
